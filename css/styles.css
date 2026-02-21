@@ -893,6 +893,7 @@ textarea.form-input {
 
 .menu-contacts .link-address {
   display: block;
+  font-style: normal;
 
   font-size: 20px;
   line-height: 1.2;
@@ -910,6 +911,9 @@ textarea.form-input {
   color: #404bbf;
 }
 
+.menu-bottom {
+  margin-top: auto;
+}
 .list-item-menu-first {
   display: flex;
   flex-direction: column;
@@ -1003,6 +1007,7 @@ textarea.form-input {
   }
 
   .header-contacts .link-address {
+    font-style: normal;
     display: block;
     font-weight: 400;
     font-size: 12px;
@@ -1101,8 +1106,14 @@ textarea.form-input {
   /* ====== footer ====== */
 
   .footer .container-footer {
+    max-width: 584px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: baseline;
+
     text-align: left;
-    margin-left: 108px;
   }
 
   .social-list-footer {
@@ -1390,6 +1401,7 @@ textarea.form-input {
   }
 
   .header-contacts .link-address {
+    font-style: normal;
     display: block;
     padding: 24px 0;
     font-size: 16px;
