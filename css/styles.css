@@ -100,12 +100,19 @@ header {
   padding: 72px 0;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/bg-office-m.png);
+    url(../images/bg-office-m.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   max-width: 320px;
   margin: 0 auto;
+}
+
+@media (min-resolution: 192dpi) {
+  .ef-sol {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/bg-office-m@2x.jpg);
+  }
 }
 
 .ef-sol-container {
@@ -999,12 +1006,19 @@ textarea.form-input {
     padding: 112px 0;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../images/bg-office-t.png);
+      url(../images/bg-office-t.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     max-width: 768px;
     margin: 0 auto;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .ef-sol {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/bg-office-t@2x.jpg);
+    }
   }
 
   .ef-sol-title {
@@ -1404,6 +1418,13 @@ textarea.form-input {
     background-position: center center;
     max-width: 1440px;
     margin: 0 auto;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .ef-sol {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-1@2x.jpg);
+    }
   }
 
   .ef-sol-title {
