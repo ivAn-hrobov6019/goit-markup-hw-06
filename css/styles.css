@@ -1577,6 +1577,7 @@ textarea.form-input {
   }
 
   .footer .container-footer {
+    max-width: 1158px;
     display: flex;
     align-items: baseline;
     justify-content: center;
